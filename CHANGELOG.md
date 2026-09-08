@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.22.4
+
+### Patch Changes
+
+- Add `disableIceLite` connect option to request full ICE from a server running ICE lite. - [#2085](https://github.com/livekit/client-sdk-js/pull/2085) ([@subham2006](https://github.com/subham2006))
+
+- Avoid attaching a new Closing/Restarting event listener for each negotiate call - [#2084](https://github.com/livekit/client-sdk-js/pull/2084) ([@1egoman](https://github.com/1egoman))
+
 ## 2.22.3
 
 ### Patch Changes
